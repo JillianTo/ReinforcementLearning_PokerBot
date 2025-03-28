@@ -4,6 +4,7 @@
 
 import torch
 from itertools import count
+from pokerkit import Automation, Mode, NoLimitTexasHoldem
 from utils import optimize_model, plot_durations
 from ReplayMemory import ReplayMemory
 
